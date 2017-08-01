@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	font-family: 'Montserrat', sans-serif;
+	color: whitesmoke;
+}
+
+nav {
+	border-top: darkgray 1px solid;
+	border-bottom: darkgray 1px solid;
+}
+
+header{
+	position: sticky;
+  	top: 0;
+  	z-index: 1;
+  	background-color: black;
+  	opacity: 0.8;
+
+}
+
+header .header-logo{
+	padding: .25em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#social-container {
+	width:100%;
+	display: flex;
+	justify-content: center;
+}
+
+#social-container li{
+	list-style: none;
+}
+
+
+#nav-container {
+	display: flex;
+	justify-content: center;
+}
+
+#nav-container li{
+	list-style: none;
+	margin: .25em;
+	padding: .25em;
+	text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	color:white;
+}
+
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	background-color:rgba(232, 156, 17, 0.63);
+}
+
+
+
+.heroimages {
+	background-image: url("http://via.placeholder.com/350x150");
+	width: 100%;
+	height: 500px;
+	opacity: 0.6;
+}
+
+.about {
+	width: 100%;
+	padding: .5em;
+}
+
+.map-intro{
+	width: 100%;
+	padding: .5em;
+	display:flex;
+	justify-content: center;
+
+}
+
+.text-block {
+	padding-left: 1em;
+	padding-right: 1em;
+
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	border-top: darkgray 1px solid;
+	border-bottom: darkgray 1px solid;
+}
+
+footer .footer-text {
+	text-transform: uppercase;
+
+}
