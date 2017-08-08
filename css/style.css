@@ -550,7 +550,7 @@ footer .footer-text {
   and (-webkit-min-device-pixel-ratio: 2) { 
        
     body { 
-      font-size: 2em;
+      font-size: 1em;
     }
 
 
@@ -567,7 +567,7 @@ footer .footer-text {
   and (-webkit-min-device-pixel-ratio: 3) { 
 
     body { 
-      font-size: 2em;
+      font-size: 1em;
     }
 
 }
