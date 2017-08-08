@@ -548,9 +548,11 @@ footer .footer-text {
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
-        body { 
-      font-size: 22px;
+       
+    body { 
+      font-size: 2em;
     }
+
 
 
 }
@@ -565,7 +567,7 @@ footer .footer-text {
   and (-webkit-min-device-pixel-ratio: 3) { 
 
     body { 
-      font-size: 22px;
+      font-size: 2em;
     }
 
 }
