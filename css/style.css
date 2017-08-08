@@ -64,6 +64,8 @@ header .header-logo{
 	margin-right: 25px;
 	text-align: center;
 	list-style: none;
+	padding-top: .5em;
+	padding-bottom: .5em;
 	text-transform: uppercase;
 }
 
@@ -73,9 +75,11 @@ header .header-logo{
 h1, h2, h3, h4, h5, h6 {
 	padding-left: 1em;
 	padding-right: 1em;
-	padding-top: .5em;
-	padding-bottom: .5em;
+	padding-top: .025em;
+	padding-bottom: .025em;
+	line-height: 1.5em;
 	color:white;
+	text-transform: uppercase;
 }
 
 
@@ -91,7 +95,6 @@ header li a {
 }
 
 
-
 a:link {
 	text-decoration: none;
 	color:white;
@@ -104,8 +107,9 @@ a:visited {
 
 a:hover {
 	background-color:rgba(245, 182, 58, 0.82);
-	transition: all 0.8s;
+	transition: all .3s;
 	border-radius: 3px;
+	padding:5px;
 }
 
 
@@ -131,14 +135,16 @@ a:hover {
 }
 
 .fa {
-	width:2em;
+	width:1.5em;
+	margin:-5px;
 }
 
 /* HOME */
 
 .heroimages {
 	background-image:url("https://c1.staticflickr.com/1/528/31799272370_d283d8ebb0_c.jpg");
-	background-size: cover; 
+	background-size: cover;
+	background-position:center; 
 	position:relative;
 	top:-10px;
 	opacity: 0.5;
@@ -152,12 +158,20 @@ a:hover {
 	opacity:none;
 	padding-left: 1em;
 	padding-right: 1em;
+
+}
+
+.arrow-indent {
+	padding-left: 3em;
+	padding-right: 1.5em;
+	margin: 1px;
 }
 
  @keyframes photoswitch {
   0% { 
   	background-image:url("https://c1.staticflickr.com/3/2943/33976735871_308fea84d7_c.jpg");
-  	background-size: cover; 
+  	background-size: cover;
+  	background-position:center; 
   	background-repeat: no-repeat;
   	width: 100%;
 	height: 700px;
@@ -167,7 +181,8 @@ a:hover {
 
   10% { 
   	background-image:url("https://c1.staticflickr.com/5/4283/35599841035_73ce3d3ce1_k.jpg");
-  	background-size: cover; 
+  	background-size: cover;
+  	background-position:center; 
   	background-repeat: no-repeat;
   	width: 100%;
 	height: 700px;
@@ -176,7 +191,8 @@ a:hover {
 
   20% { 
   	background-image:url("https://c1.staticflickr.com/3/2849/34066224686_ce7e442ac1_c.jpg");
-  	background-size: cover; 
+  	background-size: cover;
+  	background-position:center; 
   	background-repeat: no-repeat;
   	width: 100%;
 	height: 700px;
@@ -185,7 +201,8 @@ a:hover {
 
   30% { 
   	background-image:url("https://c1.staticflickr.com/5/4163/34220190931_7eb64f1104_c.jpg");
-  	background-size: cover; 
+  	background-size: cover;
+  	background-position:center; 
   	background-repeat: no-repeat;
   	width: 100%;
 	height: 700px;
@@ -194,7 +211,8 @@ a:hover {
 
    40% { 
   	background-image:url("https://c1.staticflickr.com/3/2819/33508997514_f53af5c6d9_c.jpg");
-  	background-size: cover; 
+  	background-size: cover;
+  	background-position:center; 
   	background-repeat: no-repeat;
   	width: 100%;
 	height: 700px;
@@ -204,7 +222,8 @@ a:hover {
 
   50% { 
   	background-image:url("https://c1.staticflickr.com/5/4185/33508991204_1e31cea1c7_c.jpg");
-  	background-size: cover; 
+  	background-size: cover;
+  	background-position:center; 
   	background-repeat: no-repeat;
   	width: 100%;
 	height: 700px;
@@ -213,7 +232,8 @@ a:hover {
 
   60% { 
   	background-image:url("https://c2.staticflickr.com/4/3930/34107154915_a2e69b27f2_c.jpg");
-  	background-size: cover; 
+  	background-size: cover;
+  	background-position:center; 
   	background-repeat: no-repeat;
   	width: 100%;
 	height: 700px;
@@ -222,7 +242,8 @@ a:hover {
 
   70% { 
   	background-image:url("https://c1.staticflickr.com/3/2819/34220186391_4a0c5c7743_c.jpg");
-  	background-size: cover; 
+  	background-size: cover;
+  	background-position:center; 
   	background-repeat: no-repeat;
   	width: 100%;
 	height: 700px;
@@ -231,7 +252,8 @@ a:hover {
 
   80% { 
   	background-image:url("https://c1.staticflickr.com/5/4283/35599841035_432b1f84ae_c.jpg");
-  	background-size: cover; 
+  	background-size: cover;
+  	background-position:center; 
   	background-repeat: no-repeat;
   	width: 100%;
 	height: 700px;
@@ -240,7 +262,8 @@ a:hover {
 
   90% { 
   	background-image:url("https://c1.staticflickr.com/5/4227/35599848865_5ca8188b5e_c.jpg");
-  	background-size: cover; 
+  	background-size: cover;
+  	background-position:center; 
   	background-repeat: no-repeat;
   	width: 100%;
 	height: 700px;
@@ -249,7 +272,8 @@ a:hover {
   
   100% { 
   	background-image:url("https://c2.staticflickr.com/8/7138/26217903353_c07d31e967_c.jpg");
-  	background-size: cover; 
+  	background-size: cover;
+  	background-position:center; 
   	background-repeat: no-repeat;
   	width: 100%;
 	height: 700px;
@@ -269,10 +293,12 @@ a:hover {
 .map-intro{
 	padding: .5em;
 	background-image: url("../img/homepage/map-sample.png");
-	background-size: 100% auto; 
+	background-size: cover;
+	background-position:center; 
 	width: 100%;
 	height: 500px;
 	animation: mapswitch 5s infinite;
+	transition: .5s ease;
 }
 
 
@@ -339,7 +365,9 @@ a:hover {
 /* ABOUT */
 .bio {
 	background-image:url("https://pbs.twimg.com/profile_banners/129656183/1461707966/1500x500");
- 	background-size: 100% auto; 
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-attachment: scroll;
  	background-repeat: no-repeat;
  	width: 100%;
 	height: 300px;
@@ -372,3 +400,157 @@ footer .footer-text {
 	font-size: 14px;
 
 }
+
+/* MOBILE OPTIONS*/
+
+@media screen and (max-width:950px) {
+	
+	/*GENERAL */
+
+	body {
+
+	font-size: 22px;
+}
+
+	.heroimages {
+		height: 400px;
+		animation: photoswitch 20s infinite linear;
+	}
+ 
+ @keyframes photoswitch {
+  0% { 
+  	background-image:url("https://c1.staticflickr.com/3/2943/33976735871_308fea84d7_c.jpg");
+  	background-size: cover;
+  	background-position:center; 
+  	background-repeat: no-repeat;
+  	width: 100%;
+	height: 400px;
+	opacity: 0.9;
+  }
+
+
+  10% { 
+  	background-image:url("https://c1.staticflickr.com/5/4283/35599841035_73ce3d3ce1_k.jpg");
+  	background-size: cover;
+  	background-position:center; 
+  	background-repeat: no-repeat;
+  	width: 100%;
+	height: 400px;
+	opacity: 0.9;
+  }
+
+  20% { 
+  	background-image:url("https://c1.staticflickr.com/3/2849/34066224686_ce7e442ac1_c.jpg");
+  	background-size: cover;
+  	background-position:center; 
+  	background-repeat: no-repeat;
+  	width: 100%;
+	height: 400px;
+	opacity: 0.9;
+  }
+
+  30% { 
+  	background-image:url("https://c1.staticflickr.com/5/4163/34220190931_7eb64f1104_c.jpg");
+  	background-size: cover;
+  	background-position:center; 
+  	background-repeat: no-repeat;
+  	width: 100%;
+	height: 400px;
+	opacity: 0.9;
+  }
+
+   40% { 
+  	background-image:url("https://c1.staticflickr.com/3/2819/33508997514_f53af5c6d9_c.jpg");
+  	background-size: cover;
+  	background-position:center; 
+  	background-repeat: no-repeat;
+  	width: 100%;
+	height: 400px;
+	opacity: 0.9;
+  }
+
+
+  50% { 
+  	background-image:url("https://c1.staticflickr.com/5/4185/33508991204_1e31cea1c7_c.jpg");
+  	background-size: cover;
+  	background-position:center; 
+  	background-repeat: no-repeat;
+  	width: 100%;
+	height: 400px;
+	opacity: 0.9;
+  }
+
+  60% { 
+  	background-image:url("https://c2.staticflickr.com/4/3930/34107154915_a2e69b27f2_c.jpg");
+  	background-size: cover;
+  	background-position:center; 
+  	background-repeat: no-repeat;
+  	width: 100%;
+	height: 400px;
+	opacity: 0.9;
+  }
+
+  70% { 
+  	background-image:url("https://c1.staticflickr.com/3/2819/34220186391_4a0c5c7743_c.jpg");
+  	background-size: cover;
+  	background-position:center; 
+  	background-repeat: no-repeat;
+  	width: 100%;
+	height: 400px;
+	opacity: 0.9; 
+}
+
+  80% { 
+  	background-image:url("https://c1.staticflickr.com/5/4283/35599841035_432b1f84ae_c.jpg");
+  	background-size: cover;
+  	background-position:center; 
+  	background-repeat: no-repeat;
+  	width: 100%;
+	height: 400px;
+	opacity: 0.9;
+  }
+
+  90% { 
+  	background-image:url("https://c1.staticflickr.com/5/4227/35599848865_5ca8188b5e_c.jpg");
+  	background-size: cover;
+  	background-position:center; 
+  	background-repeat: no-repeat;
+  	width: 100%;
+	height: 400px;
+	opacity: 0.9;
+  } 
+  
+  100% { 
+  	background-image:url("https://c2.staticflickr.com/8/7138/26217903353_c07d31e967_c.jpg");
+  	background-size: cover;
+  	background-position:center; 
+  	background-repeat: no-repeat;
+  	width: 100%;
+	height: 400px;
+	opacity: 0.9;
+  }
+}
+
+
+	footer .footer-text {
+		text-align:center;
+		font-size: 12px;
+
+}
+}
+
+
+
+/*GENERAL */
+
+
+/* HOME */
+
+/* PHOTOS*/
+
+/* MAP */
+
+/* PHOTOS */
+
+
+
