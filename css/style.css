@@ -543,11 +543,13 @@ footer .footer-text {
 
 /* ----------- iPhone 6 ----------- */
 
-/* Portrait and Landscape */
+/* Portrait */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
        
     body { 
       font-size: 1em;
@@ -563,11 +565,14 @@ footer .footer-text {
 
 /* ----------- iPhone 6+ ----------- */
 
-/* Portrait and Landscape */
+
+/* Portrait */
 @media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
 
     body { 
       font-size: 1em;
