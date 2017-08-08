@@ -541,16 +541,35 @@ footer .footer-text {
 
 
 
-/*GENERAL */
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+        body { 
+      font-size: 22px;
+    }
 
 
-/* HOME */
+}
 
-/* PHOTOS*/
 
-/* MAP */
+/* ----------- iPhone 6+ ----------- */
 
-/* PHOTOS */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    body { 
+      font-size: 22px;
+    }
+
+}
+
 
 
 
